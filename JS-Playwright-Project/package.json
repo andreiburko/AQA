@@ -1,0 +1,16 @@
+{
+  "name": "js-playwright-project",
+  "version": "1.0.0",
+  "description": "Test framework for Luma app. Main stack: JavaScript, Playwright, POM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": ["JavaScript", "Playwright", "POM", "UI-testing"],
+  "author": "Andrei Burko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.5"
+  }
+}
